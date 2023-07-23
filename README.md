@@ -36,7 +36,7 @@ The following tile types are planned, though many more are possible (add your ow
 
 Various stickers attached to the front panel board will allow further customization of the above eight tiles.
 
-One additional tile that I am strongly tempted to add is a short siding track, since that's very useful for passenger trains layouts (as the trains are much shorter). These can be then customized with stickers to create various stations.
+One additional tile that I am strongly tempted to add is a short siding track, since that's very useful for passenger trains layouts (as the trains are much shorter). These can be then customized with stickers to create various stations. Two other tiles on the shortlist are a crossing tile (which can have bridge or tunnel stickers), and a wye tile.
 
 ## 2023-07-21
 
