@@ -15,6 +15,36 @@ Can also be used to create multi-player games.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-08-11
+
+Figuring out a way to allow the hex tiles to be snapped togehter in such a way that you can rotate each tile into the six different orientations, and still be able to connect them when two or more are connected together, turned out to be quite a challenge.
+
+![image](https://github.com/dslik/hex-trains/assets/5757591/f893f0bc-73f5-4a31-8c3b-fcb909cc8b0f)
+
+Any sort of square connector that will slide in and mate with the top left tile will have trouble mating with the top right tile if you can also rotate it.
+
+I was able to rule out standard rectangular headers immediately, but the other options I had originally considered didn't fare much better.
+
+Pogo pins won't mate very well against each other, and is also a mechanical challenge to attach to the boards. And they would blow my BOM targets out of the water.
+
+So after around 20 different iterations, I finally settled on this:
+
+![image](https://github.com/dslik/hex-trains/assets/5757591/d8d9f308-ad55-44ed-8d41-fad2cef29ebc)
+
+This is a 100% PCB-based solution, where the ENIG fingers press against each other.
+
+This allows me to have:
+
+* Four electrical connections between each board
+* The ability to connect a third board to the concave section formed by two boards
+* No shorting and proper power sequencing when connecting boards, regardless of the angle.
+
+![image](https://github.com/dslik/hex-trains/assets/5757591/bd6bd4b9-a130-4028-abfb-d30ff94acf28)
+
+Going with a 100% PCB-based approach also dramatically reduces the costs.
+
+Next step will be to get some fabricated and see how reliable this approach is.
+
 ## 2023-07-23
 
 Here's a rough placement of the components on each tile, including the microcontroller. I'm using panelization with V-cuts to reduce manufacturing costs during the prototyping stage. If this were to go into production, each tile type would be manufactured separately to ensure that all the edges are uniform.
