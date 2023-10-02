@@ -15,6 +15,16 @@ Can also be used to create multi-player games.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2023-10-02
+
+Got the prototype boards in, and they tesselate and connect together very nicely!
+
+![image](https://github.com/dslik/hex-trains/assets/5757591/34975d51-346b-4a55-a5d0-375e2cfafbbb)
+
+I will need to tweak the pads to handle hot-plugging, and I still need to figure out the best way to connect all the boards in a given stack, but this is looking workable! I will have four contacts per hex tile to hex tile connection, which is enough for power and bi-directional data.
+
+Next steps will be to figure out the stacking of PCBs, and to slightly enlarge the magnet holes.
+
 ## 2023-08-11
 
 Figuring out a way to allow the hex tiles to be snapped togehter in such a way that you can rotate each tile into the six different orientations, and still be able to connect them when two or more are connected together, turned out to be quite a challenge.
