@@ -15,6 +15,16 @@ Can also be used to create multi-player games.
 
 _Feel free to ask questions by opening an issue!_
 
+## 2024-01-19
+
+New magnets from JLCPCB's mechatronics store. They fit perfectly.
+
+![image](https://github.com/dslik/hex-trains/assets/5757591/0845b53d-f8a6-4d6f-91cc-dfd16bfa3e9b)
+
+The magnet snap-action when the two tiles are put together is perfect. Just the right amount of force, and a satisfying snap. They will stay together on a table, and stick nicely to a fridge.
+
+But I will have to re-do the PCB design, since putting them at the corner causes snapping all three of them together to not be as strong as I would like. If I put each magnet in the centre of the mating surface, I can keep the same number of magnets per tile, and bring them closer together, increasing the strength to compensate for only having one magnet pair.
+
 ## 2023-10-02
 
 Got the prototype boards in, and they tesselate and connect together very nicely!
